@@ -1,0 +1,25 @@
+
+# dosya=open("C:/Users/Arnil03/Desktop/Python/DosyaIslemleri/DosyaIslemleri/deneme.txt","w") -> Dosya oluşturma --
+
+##################################################################################################################
+
+# dosya=open("C:/Users/Arnil03/Desktop/Python/DosyaIslemleri/DosyaIslemleri/deneme.txt","w")
+# yazılacaklar="Deneme text" 
+# dosya.write(yazılacaklar) # Değişken yerine direkt de yazdırılabilir. --
+# dosya.close()
+
+# NOT: Komut her çalıştığında "w" komutu dosyayı siler ver tekrar oluşturur.
+
+##################################################################################################################
+
+# dosya= open("C:/Users/Arnil03/Desktop/Python/DosyaIslemleri/DosyaIslemleri/deneme.txt")
+# print(dosya.readlines()) # Dosya okuma--
+# dosya.close()
+
+##################################################################################################################
+
+# dosya= open("C:/Users/Arnil03/Desktop/Python/DosyaIslemleri/DosyaIslemleri/deneme.txt","a")
+# dosya.write("\n deneme texti 4") # Alt satırdan yazmaya başlar
+# dosya.close()
+
+##################################################################################################################
